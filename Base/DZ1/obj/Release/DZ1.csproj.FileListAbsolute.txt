@@ -5,3 +5,10 @@ C:\GB\geekbrains\DZ1\DZ1\DZ1\obj\Release\DZ1.csprojAssemblyReference.cache
 C:\GB\geekbrains\DZ1\DZ1\DZ1\obj\Release\DZ1.csproj.CoreCompileInputs.cache
 C:\GB\geekbrains\DZ1\DZ1\DZ1\obj\Release\DZ1.exe
 C:\GB\geekbrains\DZ1\DZ1\DZ1\obj\Release\DZ1.pdb
+C:\GB\geekbrains\Base\DZ1\bin\Release\DZ1.exe.config
+C:\GB\geekbrains\Base\DZ1\bin\Release\DZ1.exe
+C:\GB\geekbrains\Base\DZ1\obj\Release\DZ1.csprojAssemblyReference.cache
+C:\GB\geekbrains\Base\DZ1\obj\Release\DZ1.csproj.CoreCompileInputs.cache
+C:\GB\geekbrains\Base\DZ1\obj\Release\DZ1.exe
+C:\GB\geekbrains\Base\DZ1\obj\Release\DZ1.pdb
+C:\GB\geekbrains\Base\DZ1\bin\Release\DZ1.pdb

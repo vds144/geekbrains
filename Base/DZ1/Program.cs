@@ -12,7 +12,7 @@ namespace DZ1
         {
             Console.WriteLine("Как к вам можно обращаться?");
             string name = Console.ReadLine();
-            Console.WriteLine($"Привет,  {name}, сегодня {DateTime.Today.ToShortDateString()}.");
+            Console.WriteLine($"Привет, {name}, сегодня {DateTime.Today.ToShortDateString()}.");
             Console.ReadLine();
         }
     }
