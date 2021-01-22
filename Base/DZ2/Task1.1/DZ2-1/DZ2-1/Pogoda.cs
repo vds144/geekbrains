@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DZ2_1
 {
-    class Program
+    class Pogoda
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //Зачача 1. Запросить у пользователя минимальную и максимальную температуру за сутки и вывести среднесуточную температуру.
 
