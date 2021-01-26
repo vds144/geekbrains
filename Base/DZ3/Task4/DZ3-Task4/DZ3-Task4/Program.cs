@@ -36,6 +36,7 @@ namespace DZ3_Task4
             matrix[7, 2] = "X";
             matrix[8, 2] = "X";
             matrix[9, 0] = "X";
+            matrix[9, 5] = "X";
             matrix[9, 9] = "X";
 
 
