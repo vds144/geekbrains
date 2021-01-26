@@ -15,29 +15,56 @@ namespace DZ3_Task4
             //где Х — элементы кораблей, а О — свободные клетки.
 
 
-            char[,] seabatle = new char[5, 5];
-            char element1 = 'Х';
-            char element2 = 'О';
+            string[,] matrix = new string[10, 10];
 
-            for (int i = 0; i < seabatle.GetLength(0); i++)
+            matrix[0, 0] = "X";
+            matrix[0, 8] = "X";
+            matrix[1, 2] = "X";
+            matrix[1, 3] = "X";
+            matrix[1, 4] = "X";
+            matrix[1, 8] = "X";
+            matrix[2, 8] = "X";
+            matrix[3, 1] = "X";
+            matrix[3, 6] = "X";
+            matrix[3, 8] = "X";
+            matrix[4, 1] = "X";
+            matrix[4, 6] = "X";
+            matrix[4, 8] = "X";
+            matrix[5, 1] = "X";
+            matrix[5, 4] = "X";
+            matrix[6, 4] = "X";
+            matrix[7, 2] = "X";
+            matrix[8, 2] = "X";
+            matrix[9, 0] = "X";
+            matrix[9, 9] = "X";
+
+
+            string ch1 = "O";
+            string ch2 = "X";
+
+
+            for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                for (int j = 0; j < seabatle.GetLength(1); j++)
+                for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    if (seabatle[i, j] == seabatle[i, i])
+                    if (matrix[i, j] == matrix[0, 1])
                     {
-                        seabatle[i, j] = element1;
+                        System.Console.Write($"{ch1}   " );
                     }
-                    else
-                        seabatle[i, j] = element2;
-
-                    System.Console.Write(seabatle[i, j]);
-
-
+                    else 
+                      {
+                        System.Console.Write($"{ch2}   ");
+                    }
                 }
                 System.Console.WriteLine();
                 Console.ReadLine();
             }
 
+
+
         }
     }
 }
+    
+
+
