@@ -24,7 +24,7 @@ namespace DZ4_Task2
 
         static int Sum(string text1)
         {
-            return text1.Split(new char[] { ' ', }, StringSplitOptions.RemoveEmptyEntries).Select(x => int.Parse(x)).Sum();
+            return text1.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(x => int.Parse(x)).Sum();
         }
 
 
