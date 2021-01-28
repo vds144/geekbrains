@@ -48,12 +48,12 @@ namespace DZ4_Task3
                 Console.WriteLine($"Время года: {Season.Spring}");
                 Console.ReadLine();
             }
-            else if (i == 6 || i == 7 || i == 7)
+            else if (i == 6 || i == 7 || i == 8)
             {
                 Console.WriteLine($"Время года: {Season.Summer}");
                 Console.ReadLine();
             }
-            else if (i == 8 || i == 9 || i == 10)
+            else if (i == 9 || i == 10 || i == 11)
             {
                 Console.WriteLine($"Время года: {Season.Autumn}");
                 Console.ReadLine();
