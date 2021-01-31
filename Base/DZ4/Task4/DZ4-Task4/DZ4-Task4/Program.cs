@@ -11,16 +11,16 @@ namespace DZ4_Task4
         static void Main(string[] args)
         {
             
-            string name1 = Text(1);
+            string name1 = Text();
             Console.ReadLine();
         }
 
 
-        static string Text(int number)
+        static string Text()
         {
-
+            Console.WriteLine("Добрый день!");
             Console.WriteLine("До какого числа считать ряд Фибоначчи?");
-            number = Convert.ToInt32(Console.ReadLine());
+            int number = Convert.ToInt32(Console.ReadLine());
 
             int perv = 0;
             Console.Write("{0} ", perv);
@@ -35,7 +35,7 @@ namespace DZ4_Task4
                 perv = vtor;
                 vtor = sum;
             }
-            return Text(number);
+            return Text();
 
         }
 
