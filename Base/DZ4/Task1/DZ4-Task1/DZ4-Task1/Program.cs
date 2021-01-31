@@ -42,6 +42,8 @@ namespace DZ4_Task1
 
         {
             // Цикл запроса ФИО из 4, удобно выставить нужное значение например 3(как указано в описании задачи)
+            int q = 0;
+            string s1 = q.ToString();
 
             for (int i = 0; i < 3; i++)
             {
@@ -49,8 +51,7 @@ namespace DZ4_Task1
             }
             
             // Конвертация для вывода return 0.
-            int q = 0;
-            string s1 = q.ToString();
+
             return s1;
 
         }
