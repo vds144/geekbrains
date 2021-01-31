@@ -30,7 +30,6 @@ namespace DZ4_Task1
             string firstname = Console.ReadLine();
             Console.WriteLine("Введите Отчество");
             string patronymic = Console.ReadLine();
-
             // Полный вывод ФИО
             Console.WriteLine($"Привет, {lastName} {firstname} {patronymic}");
 

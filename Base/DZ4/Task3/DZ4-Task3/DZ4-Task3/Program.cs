@@ -61,6 +61,7 @@ namespace DZ4_Task3
             if (i >= 13 || i <= 0 )
             {
                 Console.WriteLine("Ошибка: введите число от 1 до 12");
+                
             }
 
             return month;
