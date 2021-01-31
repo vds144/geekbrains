@@ -14,11 +14,11 @@ namespace Task4
 
         static void Main(string[] args)
         {
-            string name1 = GetFactorial();
+            string catalogManager = CatalogManager();
             Console.ReadLine();
         }
 
-        static string GetFactorial()
+        static string CatalogManager()
         {
             Console.WriteLine("Укажите каталог или файл. Пример: C:\\Program Files ");
             string text = Console.ReadLine();
@@ -52,7 +52,7 @@ namespace Task4
 
                
             }
-            return GetFactorial();
+            return CatalogManager();
 
         }
     }
