@@ -8,11 +8,8 @@ namespace TaskManager
         static void Main(string[] args)
         {
 
-            //Написать консольное приложение Task Manager, которое выводит на экран запущенные процессы и позволяет завершить
-            //указанный процесс.Предусмотреть возможность завершения процессов с помощью указания его ID или имени процесса. 
-            //В качестве примера можно использовать консольные утилиты Windows tasklist и taskkill.
 
-             Process[] procs = Process.GetProcesses();
+            Process[] procs = Process.GetProcesses();
 
             foreach (Process proc in procs)
             {
@@ -20,8 +17,7 @@ namespace TaskManager
             }
                 Console.WriteLine("Введите ID или названия процесса");
                  string procid = Console.ReadLine();
-                
-
+      
             foreach (Process proc in procs)
             {
                 if (procid == procid)
@@ -53,7 +49,6 @@ namespace TaskManager
                 }
                 break;
             }
-            
         }
     }
 }
