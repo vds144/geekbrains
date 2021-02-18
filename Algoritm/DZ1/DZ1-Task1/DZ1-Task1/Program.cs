@@ -2,10 +2,10 @@
 
 namespace GeekBrainsAlgos
 {
-    class Program
+   public class Program
     {
 
-        public static decimal Reverse(int n) //В данном случае ввод — это просто аргумент функции. Просто входной параметр.
+        public static decimal Reverse(int n)
         {
             int d = 0;
             int i = 2;
@@ -23,9 +23,7 @@ namespace GeekBrainsAlgos
                 }
             }
 
-            
-
-             if(d == 0)
+           if(d == 0)
             {
                 Console.WriteLine("Простое");
             }
@@ -37,7 +35,7 @@ namespace GeekBrainsAlgos
         }
 
 
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
             try
             {
@@ -62,41 +60,6 @@ namespace GeekBrainsAlgos
                 Console.WriteLine("Вы ввели недопустимое значение, введите от 2 до 2147483647");
                 Console.ReadLine();
             }
-
-            //Проверки
-
-            var testDate = new TestCase[2];
-            testDate[0] = new TestCase()
-            {
-                Expected = "Простое",
-                Expectedfalse = "Не простое"
-            };
-
-            foreach (var testCase in testDate)
-            {
-         
-
-                int numberstr = 5;
-                Reverse(numberstr);
-
-                Console.WriteLine($"Проверка числа {numberstr} Ожидаемый результат {testCase.Expected}");
-                Console.ReadLine();
-
-                int numberstr2 = 9;
-                Reverse(numberstr2);
-
-                Console.WriteLine($"Проверка числа {numberstr2} Ожидаемый результат {testCase.Expectedfalse}");
-                Console.ReadLine();
-
-                int numberstr3 = 199;
-                Reverse(numberstr3);
-
-                Console.WriteLine($"Проверка числа {numberstr3} Ожидаемый результат {testCase.Expected}");
-                Console.ReadLine();
-
-                break;
-            }
-            Console.ReadLine();
         }
     }
 }
