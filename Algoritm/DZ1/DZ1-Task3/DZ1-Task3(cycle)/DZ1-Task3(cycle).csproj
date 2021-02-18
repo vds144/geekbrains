@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7551BE21-21DE-44A5-9034-AC0E17209EE5}</ProjectGuid>
+    <ProjectGuid>{461DD9A4-6A15-4BB8-A3CD-9893A0A7AF46}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DZ1_Task1</RootNamespace>
-    <AssemblyName>DZ1-Task1</AssemblyName>
+    <RootNamespace>DZ1_Task3_cycle_</RootNamespace>
+    <AssemblyName>DZ1-Task3%28cycle%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestCase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

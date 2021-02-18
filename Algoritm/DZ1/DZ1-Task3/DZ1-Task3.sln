@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ1-Task3(retrousse)", "DZ1-Task3\DZ1-Task3(retrousse).csproj", "{BD985BBB-F415-45DC-953B-715704130374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ1-Task3(cycle)", "DZ1-Task3(cycle)\DZ1-Task3(cycle).csproj", "{461DD9A4-6A15-4BB8-A3CD-9893A0A7AF46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD985BBB-F415-45DC-953B-715704130374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD985BBB-F415-45DC-953B-715704130374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD985BBB-F415-45DC-953B-715704130374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD985BBB-F415-45DC-953B-715704130374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461DD9A4-6A15-4BB8-A3CD-9893A0A7AF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461DD9A4-6A15-4BB8-A3CD-9893A0A7AF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461DD9A4-6A15-4BB8-A3CD-9893A0A7AF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461DD9A4-6A15-4BB8-A3CD-9893A0A7AF46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCBCD984-DF58-443C-9A9A-D5AD57B73B66}
+	EndGlobalSection
+EndGlobal
