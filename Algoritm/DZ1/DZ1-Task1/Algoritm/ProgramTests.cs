@@ -53,6 +53,7 @@ namespace GeekBrainsAlgos
 
 
             Assert.AreEqual(prosto, Expected);
+            Assert.AreNotEqual(prosto, Expectedfalse);
 
 
         }
@@ -94,7 +95,7 @@ namespace GeekBrainsAlgos
                 }
 
                     Assert.AreNotEqual(prosto, Expected);
-
+                    Assert.AreEqual(prosto, Expectedfalse);
         }
 
     }

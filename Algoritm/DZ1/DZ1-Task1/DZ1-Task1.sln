@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ1-Task1", "DZ1-Task1\DZ1-Task1.csproj", "{7551BE21-21DE-44A5-9034-AC0E17209EE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algoritm", "Algoritm\Algoritm.csproj", "{2AAFD4C2-CE41-4668-BFE4-5D7DD687167D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Algoritm\Test.csproj", "{2AAFD4C2-CE41-4668-BFE4-5D7DD687167D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
