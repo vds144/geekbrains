@@ -45,10 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DuplexItem.cs" />
-    <Compile Include="DuplexLinkedList.cs" />
-    <Compile Include="Item.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Task1.cs" />
+    <Compile Include="Task2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
